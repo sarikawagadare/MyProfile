@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculater</title>
+    <style>
+        .container{
+            height:300px;
+            width: 500px;
+            box-shadow: 0px 0px 5px 5px rgb(173, 197, 205);
+            margin-left: 250px;
+            background-color: rgb(125, 221, 189);
+        }
+        .heading{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            color: rgb(19, 111, 8);
+        }
+        label{
+            margin-left: 30px;
+            color: rgb(19, 111, 8);
+        }
+        input[type="text"] ,select{
+            margin-left: 30px;
+            width: 250px;
+           
+        }
+        select[id="first"]{
+            margin-left: 30px;
+            margin-top:1px;
+            width: 255px;
+           
+            
+        }
+        input[type="submit"]{
+            margin-left: 30px;
+            margin-top: 20px;
+            width: 250px;
+            background-color: rgb(7, 128, 7);
+            border-radius: 5px;
+        }
+       
+        p{
+            margin-left: 60px;
+            color: rgb(20, 177, 5);
+        }
+    </style>
+</head>
+<body>
+    <div>
+   <div class="container">
+     <h2 class="heading">Discount Calculator</h2>
+     <p>Enter the bill Amount and percentage</p>
+     <form >
+        <label for="fname">Bill Amount</label><br>
+        <input type="text" id="fname" name="fname" value="555"><br>
+        <label for="lname">Discount Percentage</label><br>
+        <select id="first" name="first">
+        <option value="First">First</option>    
+        <option value="second">second</option>
+        <option value="third">third</option>
+        <option value="forth">forth</option>
+        </select><br>
+        <input type="submit" value="Calculate">
+      </form> 
+      <P>Total Discount Amount</P>
+   </div> 
+</div>
+</body>
+</html>
