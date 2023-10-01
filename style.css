@@ -1,0 +1,71 @@
+body {  
+    background-color: #cc9a58;
+ } 
+
+/* 
+.header{
+   background-color: aqua;
+   border: 1px solid red;
+} */
+
+.headspan{
+    margin-left: 10px;
+}
+
+.faicone{
+    margin-left: 30px;
+}
+.heading{
+    font-family: 'Roboto Serif', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 70px;
+
+}
+
+
+.navbar{
+    margin-top: 50px;
+    display: 100%;
+    /* background-color: aquamarine; */
+       }
+
+
+.navbar a{
+    padding: 20px;
+    color: rgb(2, 116, 116);
+   
+}
+
+
+.ulstyle{
+    list-style-type: square;
+}
+
+.ulstyle li{
+    font-family: 'Poppins', sans-serif;
+    color: #b50505;
+    padding: 10px;
+}
+
+.profsummery{
+    background-color: blanchedalmond;
+    margin-top: 50px;
+}
+
+
+.footer{
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+.socialicon{
+    padding: 20px;
+    margin-right: 30px;
+  
+}
+.socialiconesize{
+    font-size: 60px;
+}
+
